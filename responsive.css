@@ -1,0 +1,117 @@
+@media screen and (max-width: 800px){
+    #packages .container .row .col{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 700px){
+    body::before{
+        padding-top: 70px;
+    }
+    h1{
+        font-size: 50px;
+        font-weight: 300;
+    }
+    h2{
+        font-size: 35px;
+        font-weight: 300;
+    }
+    h3{
+        font-size: 22px;
+        font-weight: 300;
+    }
+    .row{
+        justify-content: center;
+    }
+    .col{
+        width: 100%;
+    }
+    img{
+        display: block;
+        width: 60%;
+        margin: 0 auto;
+    }
+    header{
+        padding: 0px;
+    }
+    #about{
+        padding-top: 40px;
+    }
+    #about .container .row .col:nth-child(1){
+        padding-bottom: 15px;
+        text-align: center;
+    }
+    #about h1{
+        font-size: 50px;
+    }
+    #about h2{
+        font-size: 40px;
+    }
+    #packages .container .row .col{
+        width: 50%;
+    }
+    #services .container .row .col:nth-child(1) img{
+        padding-bottom: 20px;
+    }
+    #services h2{
+        text-align: center;
+    }
+    #services p{
+        text-align: justify;
+    }
+    .cta-btn{
+        display: block;
+        width: fit-content;
+        margin: 6px auto 0px;
+    }
+    #contact .container .row .col:nth-child(1){
+        border-right: 0px;
+        padding-right: 0px;
+    }
+    #contact .container .row .col{
+        width: 100%;
+    }
+    #contact .container .row .col:nth-child(1){
+        margin-bottom: 30px;
+    }
+    #contact .container .row .col:nth-child(1) .contact-form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    #contact .contact-form, #contact .iframe-container{
+        max-width: 80%;
+        margin: auto;
+    }
+    #contact .contact-form .cta-btn{
+        margin: 0px;
+    }
+    #contact .container .row .col iframe{
+        padding-left: 0px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    #about h1{
+        font-size: 40px;
+    }
+    #about h2{
+        font-size: 30px;
+    }
+    #packages .container .row .col{
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 370px){
+    #about h1{
+        font-size: 34px;
+    }
+    #about h2{
+        font-size: 30px;
+    }
+    #packages .container .row .col{
+        width: 100%;
+    }
+}
